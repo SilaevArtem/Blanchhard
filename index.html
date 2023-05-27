@@ -5,8 +5,244 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blanchard</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__wrapp">
+            <div class="container header__container">
+                <a href="#" class="logo header__logo">
+                    <img src="img/Лого.svg" alt="Логотип Blanchhard">
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__list list-reset">
+                        <li class="header__item"><a href="" class="header__link">О нас</a></li>
+                        <li class="header__item"><a href="" class="header__link">Галерея</a></li>
+                        <li class="header__item"><a href="" class="header__link">Каталог</a></li>
+                        <li class="header__item"><a href="" class="header__link">События</a></li>
+                        <li class="header__item"><a href="" class="header__link">Проекты</a></li>
+                        <li class="header__item"><a href="" class="header__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header__search">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="8.79564" height="2.19891" transform="matrix(-0.711314 0.702874 0.711314 0.702874 6.25647 20.2722)" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3286 23.3112C9.54218 23.3112 5.06477 18.549 5.06477 12.9507C5.06477 7.35228 9.54218 2.59013 15.3286 2.59013C21.115 2.59013 25.5924 7.35228 25.5924 12.9507C25.5924 18.549 21.115 23.3112 15.3286 23.3112ZM15.3286 25.9013C8.33038 25.9013 2.6572 20.1031 2.6572 12.9507C2.6572 5.79821 8.33038 0 15.3286 0C22.3268 0 28 5.79821 28 12.9507C28 20.1031 22.3268 25.9013 15.3286 25.9013Z" fill="white"/>
+                    </svg>                        
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero__container">
+            <h1 class="hero-title">Прикоснитесь к прекрасному</h1>
+                <h4 class="hero__descr">
+                    Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений
+                </h4>
+            <button class="hero__btn btn-reset">Подписаться на рассылку</button>
+        </div>
+    </section>
+
+    <section id="about-us" class="about-us">
+        <div class="container">
+            <div class="about-us__tex-wrapp">
+                <h2 class="section-title">О нас</h2>
+                <p class="about-us__text">
+                    Ясность нашей позиции очевидна: семантический разбор внешних противодействий однозначно определяет каждого участника как способного принимать собственные решения касаемо распределения внутренних резервов и&nbsp;ресурсов. Не&nbsp;следует, однако, забывать, что высококачественный прототип будущего проекта влечёт за&nbsp;собой процесс внедрения и&nbsp;модернизации модели развития. Повседневная практика показывает, что высокое качество позиционных исследований создаёт необходимость включения в&nbsp;производственный план целого ряда внеочередных мероприятий с&nbsp;учётом комплекса распределения внутренних резервов и&nbsp;ресурсов. В&nbsp;рамках спецификации современных стандартов, действия представителей оппозиции набирают популярность среди определённых слоёв населения, а&nbsp;значит, должны быть разоблачены.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container gallery__container">
+            <div class="gallery-left">
+                <h2 class="section-title gallery__section-title">Галерея</h2>
+                <form action="" class="gallery-form">
+                    <label for="century19" class="gallery-form-radio__label">
+                        <input type="radio" class="gallery-form__radio" checked name = "century" value="XIX век" id="century19">
+                        <span class="gallery-form__new-radio"></span>
+                        <span class="gallery-form__century">XIX век</span>
+                    </label>
+                    <label for="century20" class="gallery-form-radio__label">
+                        <input type="radio" class="gallery-form__radio" checked name = "century" value="XX век" id="century20">
+                        <span class="gallery-form__new-radio"></span>
+                        <span class="gallery-form__century">XX век</span>
+                    </label> 
+                    <label for="century-now" class="gallery-form-radio__label">
+                        <input type="radio" class="gallery-form__radio" checked name = "century" value="Современность" id="century-now">
+                        <span class="gallery-form__new-radio"></span>
+                        <span class="gallery-form__century">Современность</span>
+                    </label>
+                </form>
+
+            </div>
+            <div class="gallery-right">
+                <picture class="gallery__picture">
+                    <source srcset="img/gallery-img-1-1920.jpg" media="(min-width: 1025px)">
+                    <source srcset="img/gallery-img-1-1024.jpg" media="(min-width: 769px)">
+                    <source srcset="img/gallery-img-1-768.jpg" media="(min-width: 320px)">
+                    <source srcset="img/gallery-img-1-320.jpg" media="(max-width: 320px)">
+                    <img src="#" alt="Картинка галереи">
+                </picture>
+                <picture class="gallery__picture">
+                    <source srcset="img/gallery-img-2-1920.jpg" media="(min-width: 1025px)">
+                    <source srcset="img/gallery-img-2-1024.jpg" media="(min-width: 769px)">
+                    <source srcset="img/gallery-img-2-768.jpg" media="(min-width: 320px)">
+                    <source srcset="img/gallery-img-2-320.jpg" media="(max-width: 320px)">
+                    <img src="#" alt="Картинка галереи">
+                </picture>
+                <picture class="gallery__picture">
+                    <source srcset="img/gallery-img-3-1920.jpg" media="(min-width: 1025px)">
+                    <source srcset="img/gallery-img-3-1024.jpg" media="(min-width: 769px)">
+                    <source srcset="img/gallery-img-3-768.jpg" media="(min-width: 320px)">
+                    <source srcset="img/gallery-img-3-320.jpg" media="(max-width: 320px)">
+                    <img src="#" alt="Картинка галереи">
+                </picture>
+            </div>
+        </div>
+    </section>
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <h2 class="section-title">Каталог</h2>
+            <p class="catalog__text">Акционеры крупнейших компаний, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и&nbsp;морали. Являясь всего лишь частью общей картины, стремящиеся вытеснить традиционное производство, нанотехнологии и&nbsp;по&nbsp;сей день остаются уделом либералов, которые жаждут быть функционально разнесены на&nbsp;независимые элементы.</p>
+
+                <div class="catalog-card">
+                    <figure class="catalog-card__wrapp">
+                        <picture class="catalog-card__picture">
+                            <source srcset="img/catalog-card1-1920.jpg" media="(min-width: 1025px)">
+                            <source srcset="img/catalog-card1-1024.jpg" media="(min-width: 769px)">
+                            <source srcset="img/catalog-card1-768.jpg" media="(min-width: 320px)">
+                            <source srcset="img/catalog-card1-320.jpg" media="(max-width: 320px)">
+                            <img src="#" alt="Доменико Гирландайо">
+                        </picture>
+                        <div class="catalog-card__text-wrapp">
+                            <figcaption class="catalog-card__figcaption">
+                                <h3 class="catalog-card__name">Доменико Гирландайо</h3>
+                                <span class="catalog-card__date">2&nbsp;июня 1448&ndash;11 января 1494</span>
+                            </figcaption>
+                            <p class="catalog-card__descr">
+                                Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо. Глава художественной мастерской, где юный Микеланджело в&nbsp;течение года овладевал профессиональными навыками. Автор фресковых циклов, в&nbsp;которых выпукло, со&nbsp;всевозможными подробностями показана домашняя жизнь библейских персонажей (в&nbsp;их&nbsp;роли выступают знатные граждане Флоренции в&nbsp;костюмах того времени).
+                            </p>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="catalog-card">
+                    <figure class="catalog-card__wrapp">
+                        <picture class="catalog-card__picture">
+                            <source srcset="img/catalog-card2-1920.jpg" media="(min-width: 1025px)">
+                            <source srcset="img/catalog-card2-1024.jpg" media="(min-width: 769px)">
+                            <source srcset="img/catalog-card2-768.jpg" media="(min-width: 320px)">
+                            <source srcset="img/catalog-card2-320.jpg" media="(max-width: 320px)">
+                            <img src="#" alt="Доменико Гирландайо">
+                        </picture>
+                        <div class="catalog-card__text-wrapp">
+                            <figcaption class="catalog-card__figcaption">
+                                <h3 class="catalog-card__name">Андреа дель Верроккьо</h3>
+                                <span class="catalog-card__date">1435&ndash;10 октября 1488</span>
+                            </figcaption>
+                            <p class="catalog-card__descr">
+                                Творческий путь молодого Андреа, как и&nbsp;многих знаменитых художников и&nbsp;скульпторов эпохи Возрождения, начался с&nbsp;обучения и&nbsp;работы в&nbsp;одной из&nbsp;ювелирных мастерских Флоренции.<br> Там он&nbsp;занимался не&nbsp;только изготовлением драгоценных украшений, но&nbsp;и&nbsp;познавал основы живописи, пластики и&nbsp;архитектуры. Его первым учителем был Джулиано Веррокки, фамилию которого в&nbsp;несколько изменённом виде Андреа заимствовал для своего будущего псевдонима.
+                            </p>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="catalog-card">
+                    <figure class="catalog-card__wrapp">
+                        <picture class="catalog-card__picture">
+                            <source srcset="img/catalog-card3-1920.jpg" media="(min-width: 1025px)">
+                            <source srcset="img/catalog-card3-1024.jpg" media="(min-width: 769px)">
+                            <source srcset="img/catalog-card3-768.jpg" media="(min-width: 320px)">
+                            <source srcset="img/catalog-card3-320.jpg" media="(max-width: 320px)">
+                            <img src="#" alt="Доменико Гирландайо">
+                        </picture>
+                        <div class="catalog-card__text-wrapp">
+                            <figcaption class="catalog-card__figcaption">
+                                <h3 class="catalog-card__name">Лоренцо ди Креди</h3>
+                                <span class="catalog-card__date">1459&ndash;12 января 1537</span>
+                            </figcaption>
+                            <p class="catalog-card__descr">
+                                Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо. Глава художественной мастерской, где юный Микеланджело в&nbsp;течение года овладевал профессиональными навыками. Автор фресковых циклов, в&nbsp;которых выпукло, со&nbsp;всевозможными подробностями показана домашняя жизнь библейских персонажей (в&nbsp;их&nbsp;роли выступают знатные граждане Флоренции в&nbsp;костюмах того времени).
+                            </p>
+                        </div>
+                    </figure>
+                </div>
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="container">
+            <h2 class="section-title">События</h2>
+            <div class="events__card-wrapp">
+                <div class="events-card">
+                    <figure class="events-card__wrapp">
+                        <picture class="events-card__picture">
+                            <source srcset="img/events-card1-1920.jpg" media="(min-width: 1025px)">
+                            <source srcset="img/events-card1-1024.jpg" media="(min-width: 769px)">
+                            <source srcset="img/events-card1-768.jpg" media="(min-width: 320px)">
+                            <source srcset="img/events-card1-320.jpg" media="(max-width: 320px)">
+                            <img src="#" alt="Картинка карточки 'События'">
+                        </picture>
+                        <div class="events-card__text-wrapp">
+                            <figcaption>
+                                <span class="events-card__descr">Музей им. Щусева
+                                    с&nbsp;20&nbsp;марта по&nbsp;30&nbsp;апреля</span>
+                            </figcaption>
+                            <h3 class="events-card__title">Книжная гравюра <br> в&nbsp;живом восприятии</h3>
+                            <p class="events-card__text">Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо</p>
+                            <a href="#" class="events-card__link">Подробнее</a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="events-card">
+                    <figure class="events-card__wrapp">
+                        <picture class="events-card__picture">
+                            <source srcset="img/events-card2-1920.jpg" media="(min-width: 1025px)">
+                            <source srcset="img/events-card2-1024.jpg" media="(min-width: 769px)">
+                            <source srcset="img/events-card2-768.jpg" media="(min-width: 320px)">
+                            <source srcset="img/events-card2-320.jpg" media="(max-width: 320px)">
+                            <img src="#" alt="Картинка карточки 'События'">
+                        </picture>
+                        <div class="events-card__text-wrapp">
+                            <figcaption>
+                                <span class="events-card__descr">ММОМА <br> 24&nbsp;марта 19:00</span>
+                            </figcaption>
+                            <h3 class="events-card__title">&laquo;Открытая дискуссия&raquo;. Дмитрий Петров и&nbsp;Сергей Ильин.</h3>
+                            <p class="events-card__text">Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта</p>
+                            <a href="#" class="events-card__link">Подробнее</a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="events-card">
+                    <figure class="events-card__wrapp">
+                        <picture class="events-card__picture">
+                            <source srcset="img/events-card3-1920.jpg" media="(min-width: 1025px)">
+                            <source srcset="img/events-card3-1024.jpg" media="(min-width: 769px)">
+                            <source srcset="img/events-card3-768.jpg" media="(min-width: 320px)">
+                            <source srcset="img/events-card3-320.jpg" media="(max-width: 320px)">
+                            <img src="#" alt="Картинка карточки 'События'">
+                        </picture>
+                        <div class="events-card__text-wrapp">
+                            <figcaption>
+                                <span class="events-card__descr">Еврейский музей с&nbsp;31&nbsp;марта по&nbsp;21&nbsp;апреля</span>
+                            </figcaption>
+                            <h3 class="events-card__title">Выставка &laquo;Формация&nbsp;2020&raquo;</h3>
+                            <p class="events-card__text">Идейные соображения высшего порядка, а&nbsp;также современная методология разработки играет важную роль в&nbsp;формировании глубокомысленных рассуждений</p>
+                            <a href="#" class="events-card__link">Подробнее</a>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
