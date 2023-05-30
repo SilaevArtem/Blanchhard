@@ -84,7 +84,7 @@ address {
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
-    color: var(--color-gray);
+    color: var(--color-gray-darkest);
 }
 
 /* Header */
@@ -230,13 +230,9 @@ address {
 }
 
 .about-us__tex-wrapp {
-    width: 65%;
+    width: 67%;
 }
 
-.about-us__text {
-    font-size: 16px;
-    line-height: 32px;
-}
 
 /* Gallery */
 
@@ -604,6 +600,31 @@ address {
     border: none;
     outline: 3px solid var(--color-purple-light);
     outline-offset: 0px;
+}
+
+.contacts-form__label {
+    position: relative;
+}
+
+
+.contacts-form__input.just-validate-error-field {
+    border-color: red !important;
+}
+
+.just-validate-error-label {
+    width: 160%;
+    position: absolute;
+    top: -26px;
+    left: 10px;
+}
+
+.contacts-form__input:hover {
+    background-color: var(--color-gray-lightest);
+}
+
+.contacts-form__input:focus {
+    outline: none;
+    background-color: var(--color-gray-lightest);
 }
 
 .contacts-connection__link {

@@ -1,0 +1,283 @@
+@media (max-width: 1919px) {
+    .header__logo {
+        margin-right: 35px;
+    }
+
+    .header__list {
+        gap: 65px;
+    }
+
+    /* Hero */
+
+    .hero-title {
+        padding-top: 30px;
+        width: 65%;
+        font-size: 51px;
+    }
+
+    .hero__descr {
+        margin-bottom: 72px;
+        font-size: 14px;
+        line-height: 29px;
+    }
+
+    /* Events */
+
+    .events-card__text-wrapp {
+        min-height: 421px;
+    }
+
+    /* Contacts */
+
+    .contacts__container {
+        gap: 25px;
+    }
+    .contacts-form__input {
+        padding: 13px 88px 13px 0;
+    }
+
+    .contacts-form__btn {
+        padding: 0px 29px;
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .contacts-connection {
+        width: 16%;
+    }
+
+    .contacts__text {
+        font-size: 18px;
+        line-height: 31px;
+    }
+
+    .contacts-connection__link-wrapp {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1119px) {
+    .container {
+        margin: 0 50px;
+        padding: 0;
+    }
+
+    .header__container {
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .header__wrapp {
+        padding: 32px 0 24px 0;
+    }
+
+    .header__logo {
+        margin-bottom: 21px;
+        margin-right: 0;
+    }
+
+    .header__nav {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header__list {
+        justify-content: space-between;
+    }
+
+    .header-search {
+        position: absolute;
+        top: 7px;
+        right: 0;
+    }
+
+    /* Hero */
+
+    .hero {
+        min-height: 622px;
+    }
+
+    .hero-title {
+        padding-top: 107px;
+        margin-bottom: 26px;
+        font-size: 72px;
+        line-height: 62px;
+    }
+
+    .hero__descr {
+        width: 80%;
+        margin-bottom: 134px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    /* About-us */
+
+    .about-us {
+        padding-bottom: 69px;
+    }
+
+    .about-us__tex-wrapp {
+        width: 100%;
+    }
+
+    /* Gallery */
+
+    .gallery {
+        min-height: 644px;
+    }
+
+    .gallery__container {
+        flex-wrap: wrap;
+    }
+
+    .gallery-left {
+        min-height: 247px;
+        gap: 6px;
+        justify-content: unset;
+    }
+
+    .gallery-right {
+        width: 100%;
+        height: 316px;
+        align-items: flex-end;
+    }
+
+    /* Catalog */
+
+    .catalog__text {
+        width: 100%;
+    }
+
+    .catalog-card__wrapp {
+        flex-wrap: wrap;
+    }
+
+
+    .catalog-card__wrapp:nth-child(2) {
+        gap: 30px;
+    }
+
+    .catalog-card__text-wrapp {
+        width: 100%;
+        gap: 16px;
+    }
+    
+
+    .catalog-card:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .catalog-card_1 figure {
+        gap: 27px;
+    }
+
+    /* Events */
+
+    .events-card {
+        padding-bottom: 48px;
+    }
+
+    .events__card-wrapp {
+        gap: 27px;
+    }
+
+    .events-card__text-wrapp {
+        width: 100%;
+        padding-left: 33px;
+    }
+
+    .events-card__title {
+        margin-bottom: 8px;
+    }
+
+    .events-card__text-wrapp figcaption {
+        width: 88%;
+        padding-left: 60px;
+        margin-bottom: 4px;
+        text-align: right;
+    }
+
+    .events-card__text {
+        width: 87%;
+    }
+
+    .events-card__text-wrapp {
+        min-height: 430px;
+    }
+
+    /* Projects */
+
+    .projects__text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .projects__card {
+        gap: 27px;
+    }
+
+    /* Contacts */
+
+    .contacts__text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .contacts__container {
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .contacts__address-info {
+        gap: 9px;
+    }
+    
+
+    .contacts__top {
+        padding: 41px 0 39px 0;
+    }
+
+    .contacts__address {
+        font-size: 14px;
+    }
+
+    .contacts__address {
+        line-height: 19px;
+    }
+
+    .contacts-form__input {
+        padding: 13px 88px 13px 2px;
+    }
+
+    .contacts-form__btn {
+        padding: 0px 40px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .contacts-connection {
+        width: 35%;
+        gap: 6px;
+    }
+
+    .contacts-connection__link-wrapp {
+        gap: 19px;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding-top: 39px;
+    }
+
+    .footer__icon_vk svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer__icon_odn svg {
+        width: 60px;
+        height: 60px;
+    }
+}
